@@ -6,9 +6,9 @@ function ButtonPage() {
     };
 
     return (
-        <div>
+        <div className="flex flex-row justify-around">
             <div>
-                <Button rounded primary onClick={handleClick} className="mb-5"><GoBell/> Click me</Button>
+                <Button rounded primary onClick={handleClick}><GoBell/> Click me</Button>
             </div>
             <div>
                 <Button rounded outline secondary>Button 2</Button>
